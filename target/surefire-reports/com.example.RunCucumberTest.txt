@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: com.example.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.676 sec <<< FAILURE!
+Sunday isn't Friday(Is it Friday yet?)  Time elapsed: 0.582 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<Nope> but was:<null>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.example.StepDefinitions.i_should_be_told(StepDefinitions.java:30)
+	at ?.I should be told "Nope"(classpath:com/example/is_it_friday_yet.feature:7)
+
